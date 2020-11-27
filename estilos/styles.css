@@ -8,25 +8,25 @@ body{
   color: black;
 }
 
+/*ESTILOS DEL HEADER*/
 header{
- 
   height: 60px;
-  display: flex;
+  
+  /* display: flex; */
   padding:  0 20px;
+  display: grid;
 
 }
 .menu-toggle {
-  display: none;
-  margin-left: auto;
-  color: black;
-  line-height: 60px;
-  font-size: 25px;
-  cursor: pointer;
+    display: none;
+    margin-left: auto;
+    color: black;
+    line-height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: -65px;
 }
 
-.menu-x{
-  display: none;
-}
 .titulo{
   margin-top: 20px;
 }
@@ -37,14 +37,9 @@ header{
   text-transform: uppercase;
   line-height: 60px;
   font-family: 'Kaushan Script', cursive;
-  
-  
-
 }
-
 #menu{
   margin-left: auto;
- 
 }
 #menu ul li{
   display: inline-block;
@@ -62,20 +57,30 @@ header{
   margin-top: 5px;
 }
 
-
 #menu ul li a:hover{
   
   background: black;
   opacity: 0.6;
   color: gray;
   border-radius: 5px;
-  
 }
-
  .show{
   height: 265px !important;
-  
 } 
+
+/*ESTILOS DEL MAIN*/
+
+.main{
+  margin-top: 270px;
+}
+
+.avatar img{
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  border: 2px solid gray;
+  margin-left: 40px;
+}
 
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 320px)and (max-width: 759px) {
@@ -83,17 +88,22 @@ header{
    font-size: 35px;
   margin-left: 70px;
   }
+  .ola{
+   display: none;
+  }
+  .menu-toggle{
+    display: block;
+  } 
+ 
  }
 
  /* Medium devices (tablets, 760px and up) */
  @media (max-width: 760px) {
-  .menu-toggle{
-    display: block;
-  } 
+ 
+ 
   header{
     background: #d8d3cd;
   }
-  
   #menu{
     background: #1b262c;
     position: absolute;
@@ -105,7 +115,6 @@ header{
     width: 100%;
     margin-left: 15px;
     border: solid 1px white;
-  
   }
   #menu ul li {
     display: block;
@@ -124,7 +133,18 @@ header{
   .container{
     padding: 10px;
   }
- }
+  .saludoNombre{
+    display: none;
+  }
+   .avatar img{
+        margin-top: -300px;
+        mix-blend-mode: overlay;
+        width: 270px;
+        height: 260px;
+        margin-left: 55px;
+  }
+  }
+ 
  @media (max-width: 800px) {
   .titulo a{
     font-size: 35px;
@@ -133,4 +153,7 @@ header{
   .titulo{
     margin-top: 5px;
   }
+
   }
+
+
