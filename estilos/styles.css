@@ -93,6 +93,7 @@ header{
   }
   .menu-toggle{
     display: block;
+    width: 100%;
   } 
  
  }
@@ -103,6 +104,7 @@ header{
  
   header{
     background: #d8d3cd;
+    width: 45em;
   }
   #menu{
     background: #1b262c;
