@@ -6,9 +6,12 @@
   <!-- Latest compiled and minified CSS -->
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- link de googleFonts -->
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+<!-- link para magic de github -->
+<link rel="stylesheet" href="estilos/magic.min.css">
   <link rel="stylesheet" href="estilos/styles.css">
   <title>PortFolio</title>
 </head>
@@ -33,10 +36,10 @@
     </div>
     <nav id="menu">
       <ul>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Proyectos</a></li>
+        <li><a href="#">Work</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -46,15 +49,19 @@
   <main>
     <div class="main">
       <div class="row row-cols-2">
-        <div class="col-md-6">
+        <div class="col-md-6 col-lx-1 ">
           <div class="avatar">
             <img src="img/foto2.jpg" alt="#">
+            <i class="fa fa-camera-retro fa-5x"></i>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-lx-1">
           <div class="saludoNombre">
           <h3 class="saludo">HELLO, Im</h3>
-          <h1 class="nombre">Sanchez Henry</h1>
+          <h1 class="nombre"><span class="typed"></span></h1>
+          <h2 class="dev"><span class="desarrollador"></span></h2>
+            <a href="https://github.com/hrsd83"><button type="button" class="btn btn-outline-dark">GitHub</button></a>
+           
         </div>
       </div>
   </main>
@@ -95,7 +102,7 @@
 
 
 
-
+  
  <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -104,7 +111,8 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  
+<!-- Script typed -->
+<script  src = " https://cdn.jsdelivr.net/npm/typed.js@2.0.11 "></script>
   <script src="js/script.js"></script>
 </body>
 </html>

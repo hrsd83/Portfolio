@@ -59,8 +59,8 @@ header{
 
 #menu ul li a:hover{
   
-  background: black;
-  opacity: 0.6;
+  background: #1b262c;
+  /* opacity: 0.6; */
   color: gray;
   border-radius: 5px;
 }
@@ -74,6 +74,7 @@ header{
   margin-top: 270px;
 }
 
+/*ESTILOS DEL AVATAR*/
 .avatar img{
   width: 320px;
   height: 320px;
@@ -82,7 +83,53 @@ header{
   margin-left: 40px;
 }
 
- /* Small devices (landscape phones, 576px and up) */
+/*Estilos para los iconos de tecnologias*/
+
+.fa-html5{
+  width: 300px;
+  background-color:aqua ;
+  margin-top: 1000px;
+}
+
+/*ESTILOS DEL NOMBRE Y DEV*/
+
+.saludo{
+  color: gray;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: bold;
+}
+.nombre{
+  font-weight: bold;
+  color: black;
+  font-style: normal;
+  font-family: 'Kaushan Script', cursive;
+  
+}
+
+.dev{
+  font-size: 28px;
+  color: gray;
+  font-weight: bold;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.btn-outline-dark{
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  
+
+}
+  .btn-outline-dark:hover{
+    background: #1b262c;
+    color: gray;
+    border-radius: 20px;
+    text-transform: uppercase;
+   
+  }
+
+
+ /* Small devices (landscape phones, 759px and up) */
 @media (min-width: 320px)and (max-width: 759px) {
   .titulo a{
    font-size: 35px;
@@ -92,9 +139,12 @@ header{
    display: none;
   }
   .menu-toggle{
-    display: block;
-    width: 100%;
+    display: block; 
   } 
+  #menu ul li a{
+    width: auto;
+  }
+
  
  }
 
@@ -104,7 +154,7 @@ header{
  
   header{
     background: #d8d3cd;
-    width: 45em;
+   
   }
   #menu{
     background: #1b262c;
@@ -117,6 +167,7 @@ header{
     width: 100%;
     margin-left: 15px;
     border: solid 1px white;
+
   }
   #menu ul li {
     display: block;
