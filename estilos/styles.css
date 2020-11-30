@@ -11,17 +11,15 @@ body{
 
 /*ESTILOS DEL HEADER*/
 header{
-  height: 60px;
-  
+  height: 150px;
+  width: 100%;
   /* display: flex; */
   padding:  0 20px;
   display: grid;
+  background-color: #343a40!important;;
 
 }
-/* .ola{
-  box-shadow: 0 0 15px 2px rgba(224, 222, 222);
-  z-index: 99;
-} */
+
 .menu-toggle {
     display: none;
     margin-left: auto;
@@ -88,6 +86,7 @@ header{
   border: 2px solid gray;
   margin-left: 40px;
   box-shadow: 0 0 15px 2px rgba(224, 222, 222);
+ 
 }
 
 /*Estilos para los iconos de tecnologias*/
@@ -96,10 +95,8 @@ header{
   justify-content: center;
   width: 390px;
   margin-top: 25px;
- 
- 
-
 }
+
 #iconTc{
   font-size: 80px;
   margin-left: 10px;
@@ -148,6 +145,7 @@ header{
 #cards{
   
   padding: 30px 0px;
+  
 }
 .parrafoProyectos{
   font-size: 25px;
@@ -167,12 +165,10 @@ header{
   font-size: 18px;
   
 }
-.card-body{
-  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.4);
-  
-}
+
 .card{
   margin: 20px 10px;
+  box-shadow: 0 0 10px 1px rgba(224, 222, 222);
   
  
 }
@@ -192,48 +188,56 @@ margin-top: auto;
 }
 
 /*Estilos del Footer*/
-#footer{
-  width: 100%;
-  height: 300px;
-  background: rgb(224, 222, 222);
-  border: solid 1px black;
-  position: relative;
-  box-shadow: 0 0 20px 7px rgba(224, 222, 222);
+.header-redes{
+  background: #222831;
+}
+#redes{
+  text-decoration: none;
+}
+#productos-footer{
+  color:  rgba(224, 222, 222);
+}
+#links-footer{
+  color:  rgba(224, 222, 222);
+}
+#contacto-footer{
+  color:  rgba(224, 222, 222);
+}
+#tecFooter{
+  text-decoration: none;
+  color:  rgba(224, 222, 222);
+}
+#linkFooter{
+  text-decoration: none;
+  color:  rgba(224, 222, 222);
+}
+
+
+
+#iconRedes{
+  font-size: 35px;
+  
   
 }
 
-.redes-sociales{
-  
-  display: flex;
-  justify-content: center;
+.icon-instagram{
+  background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.redes-sociales h1{
-  margin-top: 40px;
-}
- #iconRedes{
-  font-size: 60px;
-}
-
-h1 span{
-  margin-left: 40px;
+#iconwhaz{
   font-size: 40px;
+  color: green;
+  text-decoration: none ;
 }
-.redesP{
-  margin-left: 40px;
-
-}
-
-.parrafoFooter{
-  display: flex;
-  justify-content: center;
- 
+.icon-whatsapp{
+  text-decoration: none ;
 }
 
-
-
-
-
-
+a .icon-whatsapp{
+  text-decoration: none;
+}
 
  /* Small devices (landscape phones, 759px and up) */
 @media (min-width: 320px)and (max-width: 759px) {
@@ -247,6 +251,10 @@ h1 span{
   .menu-toggle{
     display: block; 
   } 
+  header{
+    height: 62px;
+  }
+ 
 
 
 
