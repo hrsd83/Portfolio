@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'sanchez';
+  src:  url('fonts/sanchez.eot?7utx1i');
+  src:  url('fonts/sanchez.eot?7utx1i#iefix') format('embedded-opentype'),
+    url('fonts/sanchez.ttf?7utx1i') format('truetype'),
+    url('fonts/sanchez.woff?7utx1i') format('woff'),
+    url('fonts/sanchez.svg?7utx1i#sanchez') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sanchez' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-javascript:before {
+  content: "\e902";
+  color: #f7df1e;
+}
+.icon-css31:before {
+  content: "\e901";
+  color: #1572b6;
+}
+.icon-html5:before {
+  content: "\e900";
+  color: #e34f26;
+}
+.icon-mail:before {
+  content: "\ea83";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}

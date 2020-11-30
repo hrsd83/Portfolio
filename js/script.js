@@ -54,15 +54,45 @@ backDelay: 1000, //Tiempo de espera derspues que termina de escribir una palabra
 // selector.classList.add('magictime', 'puffIn')
 
 
+// FUNCION DE SALUDAR
+function mySaludo() {
+  const saludar = document.querySelector('.saludo')
+  saludar.classList.add('magictime', 'twisterInDown')
+ 
+}
+setInterval(mySaludo, 500);
+
+//FUNCION DE ENLACES
+function myEnlace() {
+  const botonesEnlaces = document.querySelector('#enlaces')
+  botonesEnlaces.classList.add('magictime', 'tinLeftIn')
+ 
+}
+setInterval(myEnlace, 500);
+
+// funcion de tecnologias html, css y javascript
+function tecnologias() {
+  const tecnologia = document.querySelector('.containerTenologias')
+  tecnologia.classList.add('magictime', 'tinDownIn')
+ 
+}
+setInterval(tecnologias, 500);
+
 //Funcion del button del github
 function myFunction() {
   const selector = document.querySelector('.btn-outline-dark')
   selector.classList.add('magictime', 'foolishIn')
  
 }
-setInterval(myFunction, 1500);
+setInterval(myFunction, 500);
 
-
+//Funcion de cards
+function myTarjetas() {
+  const tarjetas = document.querySelector('#cards')
+  tarjetas.classList.add('magictime', 'spaceInDown')
+ 
+}
+setInterval(myTarjetas, 500);
 
 
 

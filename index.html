@@ -12,19 +12,21 @@
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
 <!-- link para magic de github -->
 <link rel="stylesheet" href="estilos/magic.min.css">
+<link rel="stylesheet" href="iconos/style.css">
   <link rel="stylesheet" href="estilos/styles.css">
+  
   <title>PortFolio</title>
 </head>
 <body>
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-12">
-  <header>
+  <header id="header">
     <svg class="ola" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#e0dede" fill-opacity="1" d="M0,224L40,208C80,192,160,160,240,160C320,160,400,192,480,213.3C560,235,640,245,720,218.7C800,192,880,128,960,106.7C1040,85,1120,107,1200,144C1280,181,1360,235,1400,261.3L1440,288L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
     </svg>
-    <div class="titulo">
-      <a href="#">PortFolio</a>
+    <div class="titulo1">
+      <a  href="#">PortFolio</a>
     </div>
     <div class="menu-toggle">
       <i><svg class="toggle" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-menu-button-wide" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +37,7 @@
       
     </div>
     <nav id="menu">
-      <ul>
+      <ul id="enlaces">
         <li><a href="#">Work</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Blog</a></li>
@@ -44,6 +46,7 @@
     </nav>
   </div>
   </div>
+  
   </header>
 
   <main>
@@ -51,21 +54,98 @@
       <div class="row row-cols-2">
         <div class="col-md-6 col-lx-1 ">
           <div class="avatar">
-            <img src="img/foto2.jpg" alt="#">
-            <i class="fa fa-camera-retro fa-5x"></i>
+            <img src="img/HenryFoto.jpg" alt="#">
+            <div class="containerTenologias">
+            <h1><span id="iconTc" class="icon-html5"></span></h1>
+            <h1><span id="iconTc" class="icon-css31"></span></h1>
+            <h1><span id="iconTc" class="icon-javascript"></span></h1>
+            </div>
           </div>
         </div>
         <div class="col-md-6 col-lx-1">
           <div class="saludoNombre">
-          <h3 class="saludo">HELLO, Im</h3>
+          <h1 class="saludo">HELLO, Im</h1>
           <h1 class="nombre"><span class="typed"></span></h1>
           <h2 class="dev"><span class="desarrollador"></span></h2>
             <a href="https://github.com/hrsd83"><button type="button" class="btn btn-outline-dark">GitHub</button></a>
-           
         </div>
       </div>
+    </div>
+    </div>
   </main>
+  <section id="cards">
+    <div class="container">
+      <div class="title2">
+        <h1>Projects</h1>
+        <p class="parrafoProyectos">Estos son algunos de mis trabajos realizados</p>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="img/Instagram_clone.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Clon de Instagram</h5>             
+              <p class="card-text">Un Instagram realizado en equipo en el bootcamp</p>
+              <a href="">CHECK INSTAGRAM</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="img/AmdCitas_React.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Admin de Citas</h5>             
+              <p class="card-text">Este administrador de citas esta realizado en React</p>
+              <a href="">CHECK ADM DE CITAS</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="img/PortFolio.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">PortFolio</h5>             
+              <p class="card-text">El portFolio esta realizado en html, Css y javascript</p>
+              <a href="">CHECK PortFolio</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </section>
+ <div class="container-fluid">
+  <footer id="footer">
+    <div class="redes-sociales">  
+      <h1><span id="iconRedes" class="icon-linkedin"></span></h1>
+      
+      <h1><span id="iconRedes" class="icon-github"></span></h1>
+      
+      <h1><span id="iconRedes" class="icon-mail"></span></h1>
+      
+      <h1><span id="iconRedes" class="icon-facebook2"></span></h1>
+      
+      <h1><span id="iconRedes" class="icon-instagram"></span></h1>
+      
+    </div>
 
+    <div class="parrafoFooter">
+      <p class="redesP">Linkedin</p>
+      <p class="redesP">GitHub</p>
+      <p class="redesP">Gmail</p>
+      <p class="redesP">facebook</p>
+      <p class="redesP">Instagram</p>
+    </div>
+      
+   
+  
+  </div>
+  </footer> 
+ 
+  
+  </div>
+  
 
 
 
@@ -113,6 +193,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <!-- Script typed -->
 <script  src = " https://cdn.jsdelivr.net/npm/typed.js@2.0.11 "></script>
-  <script src="js/script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
