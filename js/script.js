@@ -60,7 +60,7 @@ function mySaludo() {
   saludar.classList.add('magictime', 'twisterInDown')
  
 }
-setInterval(mySaludo, 500);
+setInterval(mySaludo, 1000);
 
 //FUNCION DE ENLACES
 function myEnlace() {
@@ -68,7 +68,7 @@ function myEnlace() {
   botonesEnlaces.classList.add('magictime', 'tinLeftIn')
  
 }
-setInterval(myEnlace, 500);
+setInterval(myEnlace, 1500);
 
 // funcion de tecnologias html, css y javascript
 function tecnologias() {
@@ -76,7 +76,7 @@ function tecnologias() {
   tecnologia.classList.add('magictime', 'tinDownIn')
  
 }
-setInterval(tecnologias, 500);
+setInterval(tecnologias, 2000);
 
 //Funcion del button del github
 function myFunction() {
@@ -84,7 +84,7 @@ function myFunction() {
   selector.classList.add('magictime', 'foolishIn')
  
 }
-setInterval(myFunction, 500);
+setInterval(myFunction, 2500);
 
 //Funcion de cards
 function myTarjetas() {
@@ -92,7 +92,48 @@ function myTarjetas() {
   tarjetas.classList.add('magictime', 'spaceInDown')
  
 }
-setInterval(myTarjetas, 500);
+setInterval(myTarjetas, 3000);
+
+//Funcion de redes
+function myRedes() {
+  const redesSociales = document.querySelector('.header-redes')
+  redesSociales.classList.add('magictime', 'tinLeftIn')
+ 
+}
+setInterval(myRedes, 3500);
+
+//Funcion de footer
+function footer() {
+  const piePagina = document.querySelector('#footer2')
+  piePagina.classList.add('magictime', 'openDownRightReturn')
+ 
+}
+setInterval(footer, 4000);
+
+
+
+
+
+
+
+
+
+// FUNCION DE PARALLAX
+document.addEventListener('mousemove' , parallax);
+function parallax(e){
+  this.querySelectorAll('.layer').forEach(layer => {
+    const speed = layer.getAttribute('data-speed')
+    
+    const x = (window.innerWidth - e.pageX*speed)/100
+    const y = (window.innerWidth - e.pageY*speed)/100
+
+    layer.style.transform = `translateX(${x}px)translateY(${y}px)`
+  });
+
+}
+
+
+
 
 
 
