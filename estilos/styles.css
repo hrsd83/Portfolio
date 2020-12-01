@@ -8,18 +8,15 @@ body{
   font-family: 'Source Sans Pro', sans-serif;
   color: black;
 }
-
 /*ESTILOS DEL HEADER*/
 header{
   height: 150px;
   width: 100%;
-  /* display: flex; */
   padding:  0 20px;
   display: grid;
   background-color: #343a40!important;;
 
 }
-
 .menu-toggle {
     display: none;
     margin-left: auto;
@@ -61,16 +58,14 @@ header{
 }
 
 #menu ul li a:hover{
-  
-  background: #222831;
-  color:  rgba(224, 222, 222);
+  background: rgba(224, 222, 222);
+  color:  #222831;
   border-radius: 5px;
 }
  .show{
   height: 265px !important;
   
 } 
-
 /*ESTILOS DEL MAIN*/
 
 .main{
@@ -146,29 +141,35 @@ header{
   
   padding: 30px 0px;
   
+  
 }
 .parrafoProyectos{
   font-size: 25px;
+  
 }
 
 #cards h1{
   font-weight: 900;
   font-size: 34px;
   padding-bottom: 5px;
+  
 }
 .title2{
   text-align: center;
   padding: 25px 0px;
   color:  rgba(224, 222, 222);
+  
 }
 .title p{
   font-size: 18px;
+  
   
 }
 
 .card{
   margin: 20px 10px;
-  box-shadow: 0 0 10px 1px rgba(224, 222, 222);
+  box-shadow: 0 0 15px 8px gray;
+  
   
  
 }
@@ -178,6 +179,8 @@ text-decoration: none;
 font-size: 15px;
 font-weight: 600;
 margin-top: auto;
+border: 2px solid gray;
+
 
 }
 #card-img-top{
@@ -194,30 +197,41 @@ margin-top: auto;
 #redes{
   text-decoration: none;
 }
-#productos-footer{
+#tecnologias-footer{
   color:  rgba(224, 222, 222);
+  font-size: 25px;
 }
 #links-footer{
   color:  rgba(224, 222, 222);
+  font-size: 25px;
 }
 #contacto-footer{
   color:  rgba(224, 222, 222);
+  font-size: 25px;
+
 }
 #tecFooter{
   text-decoration: none;
   color:  rgba(224, 222, 222);
+  font-size: 20px;
 }
 #linkFooter{
   text-decoration: none;
   color:  rgba(224, 222, 222);
+  font-size: 20px;
 }
-
-
+#contactoIconos{
+  color:  rgba(224, 222, 222);
+  font-size: 20px;
+}
+#iconoContacto, i #iconoContacto  {
+  font-size: 30px;
+}
 
 #iconRedes{
   font-size: 35px;
   
-  
+
 }
 
 .icon-instagram{
@@ -226,59 +240,39 @@ margin-top: auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#iconwhaz{
-  font-size: 40px;
-  color: green;
-  text-decoration: none ;
-}
-.icon-whatsapp{
-  text-decoration: none ;
-}
 
-a .icon-whatsapp{
-  text-decoration: none;
-}
 
- /* Small devices (landscape phones, 759px and up) */
-@media (min-width: 320px)and (max-width: 759px) {
+ /* Small devices (landscape phones, px and up) */
+ @media (max-width: 575.98px) {  
+  #whatsaapFloat{
+    display: none;
+  }
   .titulo1 a{
-   font-size: 35px;
-  margin-left: 70px;
-  }
-  .ola{
-   display: none;
-  }
-  .menu-toggle{
-    display: block; 
-  } 
-  header{
-    height: 62px;
-  }
- 
-
-
-
- 
- }
-
- /* Medium devices (tablets, 760px and up) */
- @media (max-width: 760px) {
- 
-  header{
-    background: #d8d3cd;
-  
-  }
-  #menu{
-    background: #1b262c;
+    font-size: 43px;
+   margin-left: 70px;
+   }
+   .titulo1{
+     margin-top: 5px;
+   }
+   .menu-toggle{
+     display: block; 
+   } 
+   header{
+     width: 100%;
+     height: 62px;
+     background: #d8d3cd;
+   }
+   #menu{
+    background: black;
     position: absolute;
-    top: 60px;
+    top: 62px;
     left: 0;
     height: 0;
     overflow: hidden;
-    transition: .3s ease-out;
+    transition: .7s ease-out;
     width: 100%;
-    margin-left: 15px;
-    border: solid 1px white;
+    margin-left: auto;
+    border: solid 1px #1b262c;
 
   }
   #menu ul li {
@@ -288,7 +282,7 @@ a .icon-whatsapp{
   #menu ul li a{
     color: #fff;
     font-size: 20px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(224, 222, 222);
     width: 100%;
   }
   #menu ul li a:hover{
@@ -308,17 +302,12 @@ a .icon-whatsapp{
         height: 260px;
         margin-left: 55px;
   }
+  #tecnologic, #linksFooter{
+    display: none;
   }
- 
- @media (max-width: 800px) {
-  .titulo1 a{
-    font-size: 35px;
-    
   }
-  .titulo1{
-    margin-top: 5px;
-  }
-
-  }
-
-
+  @media (max-width: 767.98px) { 
+    .saludoNombre{
+      display: none;
+    }
+   }

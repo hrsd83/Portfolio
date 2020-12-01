@@ -16,20 +16,21 @@
   <!-- link para magic de github -->
   <link rel="stylesheet" href="estilos/magic.min.css">
   <!-- link de los iconos -->
-  <link rel="stylesheet" href="iconos/style.css">
+  <link rel="stylesheet" href="iconos/fonts2/style.css">
   <link rel="stylesheet" href="estilos/styles.css">
   
   <title>PortFolio</title>
 </head>
 <body>
             <!-- WHATSAAP FLOTANTE -->
-  <a href="https://api.whatsapp.com/send?phone=5491143998712&text=Hola bienvenido en que te puedo ayudar." class="float" target="_blank">
+  <a id="whatsaapFloat" href="https://api.whatsapp.com/send?phone=5491143998712&text=Hola bienvenido en que te puedo ayudar." class="float" target="_blank">
   <i class="fa fa-whatsapp my-float"></i>
   </a>
     <!-- Container-Fluid  -->
-  <div class="container-fluid">
+  <!-- <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-12">
+      <div class="col-sm-12"> -->
+  <div class="d-flex justify-content-start">
   <header id="header">
     <div class="titulo1">
       <a  href="#">PortFolio</a>
@@ -56,6 +57,7 @@
     </div>
   
   </header>
+</div>
         <!-- MAIN  -->
   <main>
     <div class="main">
@@ -124,7 +126,7 @@
     
   </section>
 <!-- FOOTER BOOTSTRAP -->
-<footer class="page-footer bg-dark">
+<footer id="footer" class="page-footer bg-dark">
 
   <div class="header-redes">
     <div class="container">
@@ -144,9 +146,9 @@
 <div class="container text-center text-md-left mt-5">
   <div class="row">
 
-    <div class="col-md-3 mx-auto mb-4">
-        <h6 id="productos-footer" class="text-uppercase font-weight-bold">Tecnologias</h6>
-        <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style= "width:103px; height: 2px">
+    <div id="tecnologic" class="col-md-3 mx-auto mb-4">
+        <h6 id="tecnologias-footer" class="text-uppercase font-weight-bold">Tecnologias</h6>
+        <hr id="barraVerde" class="bg-success mb-4 mt-0 d-inline-block mx-auto" style= "width:160px; height: 2px">
     
       <ul class="list-unstyled">
         <li class="my-2"><a id="tecFooter" href="#">HTML 5</a></li>
@@ -155,9 +157,9 @@
         <li class="my-2"><a id="tecFooter" href="#">JavaScript</a></li>
       </ul>
     </div>
-      <div class="col-md-3 mx-auto mb-4">
+      <div id="linksFooter" class="col-md-3 mx-auto mb-4">
         <h6 id="links-footer" class="text-uppercase font-weight-bold">links</h6>
-        <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width:110px; height: 2px"> 
+        <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width:70px; height: 2px"> 
         
         <ul class="list-unstyled">
           <li class="my-2"><a id="linkFooter" href="#">Work</a></li>
@@ -169,13 +171,12 @@
 
      <div class="col-md-3 mx-auto mb-4">
       <h6 id="contacto-footer" class="text-uppercase font-weight-bold">Contacto</h6>
-      <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width:75px; height: 2px"> 
+      <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width:120px; height: 2px"> 
       
-      <ul class="list-unstyled">
-        <li class="my-2"><a href="#">Work</a></li>
-        <li class="my-2"><a href="#">About</a></li>
-        <li class="my-2"><a href="#">Blog</a></li>
-        <li class="my-2"><a href="#">Contact</a></li>
+      <ul id="contactoIconos" class="list-unstyled">
+        <li class="my-2"><i id="iconoContacto" class="icon-home"></i>Directorio 3926</li>
+        <li class="my-2"><i id="iconoContacto" class="icon-mobile"></i>+54-9-1143998712</li>
+        <li class="my-2"><i id="iconoContacto" class="icon-mail"></i>hrsd83@gmail.com</li>
       </ul>
    </div>
   </div>
