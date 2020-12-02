@@ -111,13 +111,6 @@ function footer() {
 setInterval(footer, 4000);
 
 
-
-
-
-
-
-
-
 // FUNCION DE PARALLAX
 document.addEventListener('mousemove' , parallax);
 function parallax(e){

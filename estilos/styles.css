@@ -5,7 +5,9 @@
 }
 body{
   background-color: #222831;
-  font-family: 'Source Sans Pro', sans-serif;
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
   color: black;
 }
 /*ESTILOS DEL HEADER*/
@@ -17,6 +19,8 @@ header{
   background-color: #343a40!important;;
 
 }
+
+
 .menu-toggle {
     display: none;
     margin-left: auto;
@@ -36,13 +40,17 @@ header{
   font-size: 43px;
   text-transform: uppercase;
   line-height: 60px;
-  font-family: 'Kaushan Script', cursive;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: 'Kaushan Script', cursive; */
 }
 #menu{
   margin-left: auto;
 }
 #menu ul li{
   display: inline-block;
+  
+  
+
 }
 #menu ul li a{
   display: inline-block;
@@ -56,6 +64,33 @@ header{
   font-size: 20px;
   margin-top: 5px;
 }
+/* SUBMENUS DE ENLACES */
+/* #enlaces .submenu li{
+  display: block;
+ 
+}
+.submenu{
+  position: absolute;
+  width: 100%;
+  
+  background: rgba(224, 222, 222) ;
+  
+}
+/* #enlaces .submenu li a{
+  display: block;
+  padding: 15px;
+  color: #d6249f;
+   width: 200%; 
+   display: none; 
+  
+}*/
+
+#menu li:hover .submenu{
+  display: block;
+} 
+
+
+
 
 #menu ul li a:hover{
   background: rgba(224, 222, 222);
@@ -132,14 +167,16 @@ header{
 
 .saludo{
   color:  rgba(224, 222, 222);
-  font-family: 'Kaushan Script', cursive;
+  /* font-family: 'Kaushan Script', cursive; */
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 .nombre{
   font-weight: bold;
   color: rgb(247, 223, 30);
   font-style: normal;
-  font-family: 'Kaushan Script', cursive;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: 'Kaushan Script', cursive; */
   
 }
 
@@ -147,7 +184,8 @@ header{
   font-size: 28px;
   color:  rgba(224, 222, 222);
   font-weight: bold;
-  font-family: 'Kaushan Script', cursive;
+  /* font-family: 'Kaushan Script', cursive; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn-outline-dark{
@@ -165,39 +203,32 @@ header{
     text-transform: uppercase;
    
   }
-
-  /* ESTILOS DE LOS CARDS */
-#cards{
-  
+  /* ESTILOS DE LOS CARDS  */
+ #cards{
   padding: 30px 0px;
-  
-  
 }
 .parrafoProyectos{
-  font-size: 25px;
-  
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: 'Kaushan Script', cursive; */
 }
-
 #cards h1{
   font-weight: 900;
-  font-size: 34px;
+  font-size: 38px;
   padding-bottom: 5px;
- 
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: 'Kaushan Script', cursive; */
 }
 .title2{
   text-align: center;
   padding: 25px 0px;
   color:  rgba(224, 222, 222);
-  
+  font-family: Arial, Helvetica, sans-serif;
 }
-
 .card{
   margin: 20px 10px;
   box-shadow: 0 0 10px 2px gray;
   border: 1px solid black;
-  
-  
- 
 }
 .card-body a{
 color: blue;
@@ -206,19 +237,11 @@ font-size: 15px;
 font-weight: 600;
 margin-top: auto;
 border: 1px solid black;
-
-
-
 }
 #card-img-top{
-  
   border-radius: 5px;
-  
- 
-  
 }
-
-/*Estilos del Footer*/
+    /*Estilos del Footer*/
 .header-redes{
   background: #222831;
 }
@@ -259,9 +282,7 @@ border: 1px solid black;
 #iconRedes{
   font-size: 35px;
   
-
 }
-
 .icon-instagram{
   background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
