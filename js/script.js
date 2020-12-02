@@ -68,7 +68,7 @@ function myEnlace() {
   botonesEnlaces.classList.add('magictime', 'tinLeftIn')
  
 }
-setInterval(myEnlace, 1500);
+setInterval(myEnlace, 1000);
 
 // funcion de tecnologias html, css y javascript
 function tecnologias() {
@@ -76,7 +76,7 @@ function tecnologias() {
   tecnologia.classList.add('magictime', 'tinDownIn')
  
 }
-setInterval(tecnologias, 2000);
+setInterval(tecnologias, 1000);
 
 //Funcion del button del github
 function myFunction() {
@@ -84,7 +84,7 @@ function myFunction() {
   selector.classList.add('magictime', 'foolishIn')
  
 }
-setInterval(myFunction, 2500);
+setInterval(myFunction, 1000);
 
 //Funcion de cards
 function myTarjetas() {
@@ -92,7 +92,7 @@ function myTarjetas() {
   tarjetas.classList.add('magictime', 'spaceInDown')
  
 }
-setInterval(myTarjetas, 3000);
+setInterval(myTarjetas, 1000);
 
 //Funcion de redes
 function myRedes() {
@@ -100,7 +100,7 @@ function myRedes() {
   redesSociales.classList.add('magictime', 'tinLeftIn')
  
 }
-setInterval(myRedes, 3500);
+setInterval(myRedes, 1000);
 
 //Funcion de footer
 function footer() {
@@ -108,7 +108,7 @@ function footer() {
   piePagina.classList.add('magictime', 'openDownRightReturn')
  
 }
-setInterval(footer, 4000);
+setInterval(footer, 1000);
 
 
 // FUNCION DE PARALLAX
