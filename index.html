@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Latest compiled and minified CSS -->
-  <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <!-- link de googleFonts -->
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
@@ -19,64 +18,65 @@
   <link rel="stylesheet" href="iconos/fonts2/style.css">
   <link rel="stylesheet" href="estilos/styles.css">
   
+  
   <title>PortFolio</title>
 </head>
 <body>
-  
-  <div class="d-flex justify-content-start">
-    <header id="header">
-      <div class="titulo1">
-      <a href="https://vercel.com/hrsd83/portfolio">PortFolio</a>
-      </div>
-      <div class="menu-toggle">
-      <i><svg class="toggle" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-menu-button-wide" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" d="M0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v2A1.5 1.5 0 0 1 14.5 5h-13A1.5 1.5 0 0 1 0 3.5v-2zM1.5 1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5h-13zM14 7H2a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1zM2 6a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2H2z"/>
-        <path fill-rule="evenodd" d="M15 11H1v-1h14v1zM2 12.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0-10a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm0 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5z"/>
-        <path d="M12.823 2.823l-.396-.396A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0z"/>
-      </svg></i>
-      
-      </div>
-      <nav id="menu" class="navegacion">
-      <ul id="enlaces" class="menu">
-        <li><a href="#">Work</a>
-            <ul class="submenu">
-              <li><a href="https://vercel.com/hrsd83/instagram">Instagram</a></li>
-              <li><a href="https://vercel.com/hrsd83/administrador">Adm de Citas</a></li> 
-              <li><a href="https://vercel.com/hrsd83/portfolio">Portfolio</a></li>
-            </ul>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light-lg">
+    <div class="container">
+    <a class="navbar-brand" href="https://vercel.com/dashboard"><h1>PortFolio</h1></a>
+    <button class="navbar-toggler"type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a id="enlaces" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="titulos">
+            Work
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="https://vercel.com/hrsd83/instagram">Instagram Clone</a>
+            <a class="dropdown-item" href=https://vercel.com/hrsd83/administrador>Agenda de Citas</a>
+            <a class="dropdown-item" href="https://vercel.com/hrsd83/portfolio">PortFolio</a>
+          </div>
         </li>
-        <li><a href="#">About</a>
-            <ul class="submenu">
-              <li><a href="">Menu #1</a></li>
-              <li><a href="">Menu #2</a></li>
-              <li><a href="">Menu #3</a></li>
-            </ul>
+        <li class="nav-item dropdown">
+          <a id="enlaces" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">SubMenu #1</a>
+            <a class="dropdown-item" href="#">SubMenu #2</a>
+            <a class="dropdown-item" href="#">SubMenu #3</a>
+          </div>
         </li>
-        <li><a href="#">Services</a>
-            <ul class="submenu">
-              <li><a href="">Services #1</a></li>
-              <li><a href="">Services #2</a></li>
-              <li><a href="">Services #3</a></li>
-            </ul>
+        <li class="nav-item dropdown">
+          <a id="enlaces" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">SubMenu #1</a>
+            <a class="dropdown-item" href="#">SubMenu #2</a>
+            <a class="dropdown-item" href="#">SubMenu #3</a>
+          </div>
         </li>
-        <li><a href="#">Contact</a>
-          <ul class="submenu">
-            <li><a href="https://api.whatsapp.com/send?phone=5491143998712&text=Hola bienvenido en que te puedoayudar">Whatsapp</a></li>
-            <li><a href="https://www.google.com/intl/es/gmail/about/">Email</a></li>
-            <li><a href="">Contact #3</a></li>
-          </ul>
+        <li class="nav-item dropdown">
+          <a id="enlaces" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contacto
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="https://api.whatsapp.com/send?phone=5491143998712&text=Hola bienvenido en que te puedoayudar">Whatsaap</a>
+            <a class="dropdown-item" href="https://www.google.com/intl/es/gmail/about/">Email</a>
+            <a class="dropdown-item" href="#">SubMenu #3</a>
+          </div>
         </li>
       </ul>
-      </nav>
-      </div>
-      </div>
-    
-    </header>
-  </div>
-
+    </div>
+    </div>
+  </nav>
+  
         <!-- MAIN  -->
   <main>
-    
     <div class="main">
       <section class="parallax">
         <img src="img/parallax/1.png" data-speed="-5" class="layer"> 
@@ -115,7 +115,7 @@
     </div>
   </main>
 
-  <!-- cards de portfolio   -->
+   <!-- cards de portfolio    -->
    <section id="cards">
     <div class="container">
       <div class="title2">
@@ -157,7 +157,7 @@
     </div>
     
   </section>
-<!-- FOOTER BOOTSTRAP -->
+ <!-- FOOTER BOOTSTRAP  -->
 <footer id="footer" class="page-footer bg-dark">
 
   <div class="header-redes">
@@ -213,7 +213,7 @@
    </div>
   </div>
 </div>
-<!-- WHATSAAP FLOTANTE -->
+ <!-- WHATSAAP FLOTANTE  -->
   <a id="whatsaapFloat" href="https://api.whatsapp.com/send?phone=5491143998712&text=Hola bienvenido en que te puedo ayudar." class="float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
   </a>
@@ -228,7 +228,13 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <!-- Script typed -->
 <script  src = " https://cdn.jsdelivr.net/npm/typed.js@2.0.11 "></script>
+
+
 <script src="js/script.js"></script>
 </div> 
 </body>
 </html>
+
+
+
+

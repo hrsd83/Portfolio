@@ -1,19 +1,24 @@
 
+
+
+
+
+
 //SCRIPT DEL TOGGLE
-let menuToggle = document.querySelector('.menu-toggle');
-let menuToggleIcon = document.querySelector('.menu-toggleA');
-let menu = document.getElementById('menu');
+// let menuToggle = document.querySelector('.menu-toggle');
+// let menuToggleIcon = document.querySelector('.menu-toggleA');
+// let menu = document.getElementById('menu');
 
-menuToggle.addEventListener('click', e=>{
-  menu.classList.toggle('show');
+// menuToggle.addEventListener('click', e=>{
+//   menu.classList.toggle('show');
 
-  // if(menu.classList.contains('show')){
-  //   menuToggleIcon.setAttribute('class','bi-x-square');
+//   // if(menu.classList.contains('show')){
+//   //   menuToggleIcon.setAttribute('class','bi-x-square');
 
-  // }else{
-  //   menuToggleIcon.setAttribute('class','.menu-x');
-  // }
-})
+//   // }else{
+//   //   menuToggleIcon.setAttribute('class','.menu-x');
+//   // }
+// })
 
 // SCRIPT DEL NOMBRE
 
@@ -63,12 +68,12 @@ function mySaludo() {
 setInterval(mySaludo, 1000);
 
 //FUNCION DE ENLACES
-function myEnlace() {
-  const botonesEnlaces = document.querySelector('#enlaces')
-  botonesEnlaces.classList.add('magictime', 'tinLeftIn')
+// function myEnlace() {
+//   const botonesEnlaces = document.querySelector('#enlaces')
+//   botonesEnlaces.classList.add('magictime', 'tinLeftIn')
  
-}
-setInterval(myEnlace, 1000);
+// }
+// setInterval(myEnlace, 1000);
 
 // funcion de tecnologias html, css y javascript
 function tecnologias() {
@@ -100,7 +105,7 @@ function myRedes() {
   redesSociales.classList.add('magictime', 'tinLeftIn')
  
 }
-setInterval(myRedes, 1000);
+setInterval(myRedes, 2000);
 
 //Funcion de footer
 function footer() {
@@ -124,7 +129,6 @@ function parallax(e){
   });
 
 }
-
 
 
 
