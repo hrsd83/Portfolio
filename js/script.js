@@ -1,25 +1,4 @@
 
-
-
-
-
-
-//SCRIPT DEL TOGGLE
-// let menuToggle = document.querySelector('.menu-toggle');
-// let menuToggleIcon = document.querySelector('.menu-toggleA');
-// let menu = document.getElementById('menu');
-
-// menuToggle.addEventListener('click', e=>{
-//   menu.classList.toggle('show');
-
-//   // if(menu.classList.contains('show')){
-//   //   menuToggleIcon.setAttribute('class','bi-x-square');
-
-//   // }else{
-//   //   menuToggleIcon.setAttribute('class','.menu-x');
-//   // }
-// })
-
 // SCRIPT DEL NOMBRE
 
 const type = new Typed('.typed', {
@@ -55,10 +34,6 @@ contentType: 'html', //'html o null ' para texto sin formato
 backDelay: 1000, //Tiempo de espera derspues que termina de escribir una palabra
 });
 
-// const selector = document.querySelector('.btn-outline-dark')
-// selector.classList.add('magictime', 'puffIn')
-
-
 // FUNCION DE SALUDAR
 function mySaludo() {
   const saludar = document.querySelector('.saludo')
@@ -67,13 +42,13 @@ function mySaludo() {
 }
 setInterval(mySaludo, 1000);
 
-//FUNCION DE ENLACES
-// function myEnlace() {
-//   const botonesEnlaces = document.querySelector('#enlaces')
-//   botonesEnlaces.classList.add('magictime', 'tinLeftIn')
+// FUNCION DE ENLACES
+function myEnlace() {
+  const botonesEnlaces = document.querySelector('#navbarNavDropdown')
+  botonesEnlaces.classList.add('magictime', 'tinLeftIn')
  
-// }
-// setInterval(myEnlace, 1000);
+}
+setInterval(myEnlace, 500);
 
 // funcion de tecnologias html, css y javascript
 function tecnologias() {
@@ -113,7 +88,7 @@ function footer() {
   piePagina.classList.add('magictime', 'openDownRightReturn')
  
 }
-setInterval(footer, 1000);
+setInterval(footer, 2000);
 
 
 // FUNCION DE PARALLAX
